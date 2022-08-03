@@ -1,0 +1,35 @@
+.SearchPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 5em;
+}
+.Cards {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row: inherit;
+}
+@media screen and (min-width: 840px){
+  .Cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1270px){
+  .Cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1700px){
+  .Cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 2150px){
+  .Cards {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

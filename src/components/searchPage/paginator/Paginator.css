@@ -1,0 +1,17 @@
+.Paginator {
+    margin: 10px;
+}
+.Paginator-Button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
+    border: #FFFFFF;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.Paginator-Button:active {
+    box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+    background: white;
+    font-size: 16px;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(./1.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-size: 10em;
+}
